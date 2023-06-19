@@ -1,3 +1,101 @@
-h1 {
-    color: blue;
+* {
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#foodItemBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.foodItemBox{
+    
+    padding: 20px;
+    width: 700px;
+ 
+    
+}
+#total-price{
+ font-size: large;
+ margin-top: 15px;
+
+}
+h1{
+    font-size: 40px;
+        font-weight: 400;
+        color:#0088D6;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+.side-of-row{
+content: "";
+display: table; 
+clear: both;   
+
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+h3:hover{
+    font-size: 40px;
+        font-weight: 500;
+        background-image: linear-gradient(to left, #553c9a, #b393d3);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+}
+.foodImage{
+            padding: 5px;
+}
+
+.addButton{
+background-color:#68b7f8;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 50px;
+
+
+}
+.removeButton{
+    background-color: #68b7f8;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+            border-radius: 50px;
+}
+.image_Logo{
+    height: 8rem;
+    width:10rem;
+}
+.checkout-button {
+    background-color: #68b7f8;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.checkout-button:hover {
+    background-color: #2c0ce6;
+}
+
+.checkout-button:active {
+    background-color: #d3d5c6;
+    /* Change the background color when clicked */
 }
